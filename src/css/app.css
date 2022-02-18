@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 10px;
+    padding: .2rem 1rem;
+}
+
+.card-container {
+    display: flex;
+}
+
+h3.card {
+    border: 2px solid #999;
+}
+
+.recipe-list {
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+}
+
+.recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.recipe-category-container {
+    width: 15vw;
+}
+
+.view-recipe-btn {
+    background: none;
+    border: 2px solid royalblue;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: .4rem;
+    margin: 0 .5rem 0 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrap-line {
+    white-space: pre-wrap;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
